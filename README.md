@@ -6,4 +6,6 @@ COVID-19 pandemic impacted the whole world, overwhelming healthcare systems - un
 Dataset
 This dataset contains anonymized data from Hospital Sírio-Libanês, São Paulo and Brasilia. All data were anonymized following the best international practices and recommendations. Data has been cleaned and scaled by column according to Min Max Scaler to fit between -1 and 1.
 
-Based on the data available, is it feasible to predict which patients will need intensive care unit support? The aim is to provide tertiary and quarternary hospitals with the most accurate answer, so ICU resources can be arranged or patient transfer can be scheduled.
+Based on the data available, is it feasible to predict which patients will need intensive care unit support? The aim is to provide tertiary and quarternary hospitals with the most accurate answer, so ICU resources can be arranged or patient transfer can be scheduled. The patient's admission to the ICU is classified using the Artificial Neural Networks(ANN) algorithm.
+
+A frontend is created for better understanding and usability of the model. The frontend is created using the Streamlit library of Python.
