@@ -204,7 +204,7 @@ UREA_MEDIAN = -0.806
 DIMER_MEDIAN = -0.92
 
 #Loading the best saved model
-model = load_model("model-089.model")
+model = load_model("model-147.model")
 
 #Using the model to predict the answer
 prediction = model.predict([[
